@@ -1,0 +1,11 @@
+--- a/libraries/lib-files/FileNames.cpp	2026-02-08 22:49:18.114013258 -0500
++++ b/libraries/lib-files/FileNames.cpp	2026-02-08 22:49:29.286954635 -0500
+@@ -738,7 +738,7 @@
+ }
+ #elif defined(__linux__)
+ #include <sys/statfs.h>
+-#include "/usr/include/linux/magic.h"
++#include <linux/magic.h>
+ bool FileNames::IsOnFATFileSystem(const FilePath &path)
+ {
+    struct statfs fs;

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec $(xx-info sysroot)usr/lib/wx/config/gtk3-unicode-3.2 --prefix=$(xx-info sysroot)usr "$@"
