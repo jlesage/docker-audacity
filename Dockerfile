@@ -35,7 +35,7 @@ RUN xx-verify \
     /tmp/audacity-install/usr/bin/audacity
 
 # Pull base image.
-FROM jlesage/baseimage-gui:alpine-3.20-v4.11.0
+FROM jlesage/baseimage-gui:alpine-3.20-v4.11.1
 
 ARG AUDACITY_VERSION
 ARG DOCKER_IMAGE_VERSION
