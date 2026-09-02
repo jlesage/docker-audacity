@@ -8,7 +8,7 @@
 ARG DOCKER_IMAGE_VERSION=
 
 # Define software versions.
-ARG AUDACITY_VERSION=3.7.8
+ARG AUDACITY_VERSION=3.7.9
 
 # Define software download URLs.
 ARG AUDACITY_URL=https://github.com/audacity/audacity/archive/refs/tags/Audacity-${AUDACITY_VERSION}.tar.gz
