@@ -69,6 +69,10 @@ app:
           [4:0:0:0]    cd/dvd  hp HLDS  DVDRW  GUD1N     LD02  /dev/sr0
           ```
   changelog:
+    - version: 26.09.1
+      date: 2026-09-03
+      changes:
+        - 'Updated Audacity to version 3.7.9.'
     - version: 26.08.2
       date: 2026-08-17
       changes:
